@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main .container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px 0;
+    background-color: rgb(34, 20, 2);
+}
+img{
+    box-shadow: 0 5px 5px rgba(0, 0,0, 0.3);
+}
+.btn button{
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 0 5px;
+    font-size: 20px;
+}
+.btn button:first-child{
+    background-color:rgb(61, 45, 30);
+}
+.btn button:last-child{
+    background-color:rgb(126, 99, 73);
+}
+.btn button:nth-child(2){
+    background-color:rgb(87, 45, 6);
+}
+.btn button:nth-child(3){
+    background-color:rgb(87, 68, 51);
+}
